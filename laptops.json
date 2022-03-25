@@ -6,51 +6,51 @@
     "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-pro-8/surface-pro-8-010-500x500.jpg"
   },
   {
+    "id": "623de45f0b589b676e7fd68d",
+    "name": "Apple MacBook Pro 14-Inch",
+    "price": "$2,566.12",
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-14/macbook-pro-14-10-500x500.jpg"
+  },
+  {
     "id": "623de45f5061eb6bf450b91b",
     "name": "HP ENVY X360 Convertible",
     "price": "$1,700.50",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/envy-x360-convertible-15t-ed100/envy-x360-convertible-15t-ed100-01-500x500.jpg"
   },
   {
     "id": "623de45ff0fb4594db9cf129",
     "name": "Lenovo Yoga Slim 7 Carbon",
     "price": "$1,429.28",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-slim-7-carbon/yoga-slim-7-carbon-01-500x500.jpg"
   },
   {
     "id": "623de45f26c4a1c0b2284954",
     "name": "Asus ZenBook 14 Flip OLED",
     "price": "$1,547.55",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/zenbook-14-flip-oled-up5401ea/zenbook-14-flip-oled-up5401ea-01-500x500.jpg"
   },
   {
     "id": "623de45f4a1b07352e2adbf2",
     "name": "Lenovo IdeaPad Flex 5i",
     "price": "$1,146.53",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-flex-5i/flex-5i-005-500x500.jpg"
   },
   {
     "id": "623de45f50884e9adeae0646",
     "name": "Gigabyte A5 X1 ",
     "price": "$2,916.35",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/gigabyte/a5-x1/a5-x1-01-500x500.jpg"
   },
   {
     "id": "623de45f3affbb20509db9e5",
     "name": "Apple MacBook Pro 16-Inch",
     "price": "$3,896.28",
-    "picture": "http://placehold.it/32x32"
-  },
-  {
-    "id": "623de45f0b589b676e7fd68d",
-    "name": "Apple MacBook Pro 14-Inch",
-    "price": "$2,566.12",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg"
   },
   {
     "id": "623de45f474dd8b1fe9a92af",
     "name": "Dell XPS 13 9310 ",
     "price": "$2,206.30",
-    "picture": "http://placehold.it/32x32"
+    "picture": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-13/xps-13-1-500x500.jpg"
   }
 ]
