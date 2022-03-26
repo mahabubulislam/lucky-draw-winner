@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import './Container.css'
 import Laptop from '../Laptops/Laptop';
 import LuckyDraw from '../LuckyDraw/LuckyDraw';
-import './Container.css'
 
 
 const Container = () => {
@@ -13,8 +13,8 @@ const Container = () => {
     }, [])
 
     return (
-        <div className="main-container">
-            <div className='laptops-container'>
+        <div className="container main-container">
+            <div className='row row-cols-1 row-cols-md-3 g-4'>
                 {
                     laptops.map(laptop =>
                         <Laptop laptops={laptop} key={laptop.id}></Laptop>
