@@ -21,12 +21,9 @@ const Container = () => {
 
        const luckyLaptop = () => {
         const luckyOne = cart[Math.floor(Math.random() * cart.length)];
-    
         return luckyOne
        }
        
-   
-    
     const clearLaptop = () => {
         setCart([])
     }
@@ -44,7 +41,7 @@ const Container = () => {
                     )
                 }
             </div>
-            <div className="lucky-draw">
+            <div className="lucky-draw ">
                 <LuckyDraw
                     cart={cart}
                     clearLaptop={clearLaptop}

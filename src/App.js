@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import Container from './components/Container/Container';
+import Question from './components/Question/Question';
 
 function App() {
  
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header></Header>
       <Container></Container>
+      <Question></Question>
     </div>
   );
 }

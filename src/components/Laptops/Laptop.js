@@ -11,7 +11,7 @@ const Laptop = ({ laptops,  handleSelectLaptop }) => {
                 <img className='card-img-top ' src={picture} alt="" />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <p className="card-text">{price}</p>
+                    <h6 className="card-text">Price: ${price}</h6>
                 </div>
                 <div className='d-flex align-items-center'>
                     <button onClick={()=> handleSelectLaptop(laptops)} className="btn btn-outline-success w-100">Select Laptop <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon></button>

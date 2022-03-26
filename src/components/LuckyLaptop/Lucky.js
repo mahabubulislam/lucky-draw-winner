@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Button, Modal } from "react-bootstrap"
 const Lucky = ({cart}) => {
     const luckyOne = cart[Math.floor(Math.random() * cart.length)];
-    
-    console.log(luckyOne)
 
     const [show, setShow] = useState(false);
 
@@ -16,12 +14,12 @@ const Lucky = ({cart}) => {
             </Button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title></Modal.Title>
+                    <Modal.Title>Hurrah!!! You won this...</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <h3>{luckyOne?.name}</h3>
-                    <img className='w-50 mx-auto' src={luckyOne?.picture} alt="" />
-                    <h4>Price: {luckyOne?.price}</h4>
+                    <img className='w-50' src={luckyOne?.picture} alt="" />
+                    <h3 >Price: ${luckyOne?.price}</h3>
                 </Modal.Body>
             </Modal>
         </>
