@@ -3,7 +3,7 @@ import React from 'react';
 const Question = () => {
     return (
         <div  data-aos="flip-right" className='container mt-3 shadow'>
-            <h1 className='text-center'>React Quesion and Answer</h1>
+            <h1 className='text-center'>React Question and Answer</h1>
             <div>
                 <h3>Question 1: How React works?</h3>
                 <p>Answer: React is a JavaScript Library use for create User Interface. React is component based. React React render. React use JSX(JavaScript XML) for rendaring element. JSX is a system to create elements like html elements  in javascript. It is a syntactic sugar. React create a virtual DOM and compare with real DOM using state. React compare virtual DOM and real DOM with Diff algorithm</p>
