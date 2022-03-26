@@ -21,6 +21,7 @@ const Container = () => {
 
        const luckyLaptop = () => {
         const luckyOne = cart[Math.floor(Math.random() * cart.length)];
+    
         return luckyOne
        }
        

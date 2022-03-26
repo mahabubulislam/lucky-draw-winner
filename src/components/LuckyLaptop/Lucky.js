@@ -20,7 +20,7 @@ const Lucky = ({cart}) => {
                 </Modal.Header>
                 <Modal.Body>
                     <h3>{luckyOne?.name}</h3>
-                    <img className='w-50' src={luckyOne?.picture} alt="" />
+                    <img className='w-50 mx-auto' src={luckyOne?.picture} alt="" />
                     <h4>Price: {luckyOne?.price}</h4>
                 </Modal.Body>
             </Modal>
