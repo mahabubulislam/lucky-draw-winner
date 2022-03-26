@@ -1,7 +1,7 @@
 # Lucky Winner
 # Get chance to win laptop 
-Live site link: [Lucky winner](https://lucky-winner.netlify.app/).
-Link: [https://lucky-winner.netlify.app/](https://lucky-winner.netlify.app/)
+## Live site link: [Lucky winner](https://lucky-winner.netlify.app/).
+### Link: [https://lucky-winner.netlify.app/](https://lucky-winner.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
