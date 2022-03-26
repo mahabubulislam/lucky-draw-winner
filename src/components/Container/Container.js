@@ -28,7 +28,7 @@ const Container = () => {
         setCart([])
     }
     return (
-        <div className="container main-container">
+        <div  className="container main-container">
             
             <div className='row row-cols-1 row-cols-md-3 g-4'>
                 {

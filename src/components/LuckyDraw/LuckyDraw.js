@@ -14,7 +14,7 @@ const LuckyDraw = ({ cart, luckyLaptop, clearLaptop }) => {
                             <p className='ms-2'>{laptop.name} </p>
                         </div>)
                 }
-                <Lucky onClick={() => luckyLaptop()} cart={cart}></Lucky>
+                <Lucky onClick={() => luckyLaptop() } cart={cart}></Lucky>
 
                 <button onClick={() => clearLaptop()} className='btn btn-outline-primary mb-3 w-75 mx-auto text-uppercase'>Choose again</button>
 

@@ -4,10 +4,11 @@ import React from 'react';
 import './Laptop.css'
 const Laptop = ({ laptops,  handleSelectLaptop }) => {
     const { picture, name, price } = laptops
+
     return (
 
         <div className="col">
-            <div className="card h-100">
+            <div className="card h-100" data-aos="fade-up-right">
                 <img className='card-img-top ' src={picture} alt="" />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>

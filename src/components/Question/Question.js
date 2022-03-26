@@ -2,7 +2,7 @@ import React from 'react';
 
 const Question = () => {
     return (
-        <div className='container mt-3 shadow'>
+        <div  data-aos="flip-right" className='container mt-3 shadow'>
             <h1 className='text-center'>React Quesion and Answer</h1>
             <div>
                 <h3>Question 1: How React works?</h3>
