@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Laptop.css'
-const Laptop = ({ laptops }) => {
+const Laptop = ({ laptops,  handleSelectLaptop }) => {
     const { picture, name, price } = laptops
     return (
 
@@ -14,7 +14,7 @@ const Laptop = ({ laptops }) => {
                     <p className="card-text">{price}</p>
                 </div>
                 <div className='d-flex align-items-center'>
-                    <button className="btn btn-outline-success w-100">Select Laptop <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon></button>
+                    <button onClick={()=> handleSelectLaptop(laptops)} className="btn btn-outline-success w-100">Select Laptop <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon></button>
                 </div>
             </div>
         </div>
