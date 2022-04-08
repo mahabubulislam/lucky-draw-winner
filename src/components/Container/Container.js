@@ -14,22 +14,38 @@ const Container = () => {
             .then(data => setLaptops(data))
     }, [])
 
-    const handleSelectLaptop = (Laptop) => {
-        const newCart = [...cart, Laptop]
-        setCart(newCart)
+    const handleSelectLaptop = (laptop) => {
+
+        let newCart = []
+        const exists = cart.find(product => product.id === laptop.id);
+        if (!exists) {
+            newCart = [...cart, laptop];
+            setCart(newCart)
+        }
+        if (exists) {
+            alert("Already added")
+        }
+        if (newCart.length > 4) {
+            alert("You can't add more than 4")
+            setCart(cart)
+        }
+
+
     }
 
-       const luckyLaptop = () => {
+
+
+    const luckyLaptop = () => {
         const luckyOne = cart[Math.floor(Math.random() * cart.length)];
         return luckyOne
-       }
-       
+    }
+
     const clearLaptop = () => {
         setCart([])
     }
     return (
-        <div  className="container main-container">
-            
+        <div className="container main-container">
+
             <div className='row row-cols-1 row-cols-md-3 g-4'>
                 {
                     laptops.map(laptop =>
